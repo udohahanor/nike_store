@@ -6,12 +6,11 @@ class HomeWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: 150.0,
       padding: const EdgeInsets.all(60.0),
       color: Colors.black,
       child: const Image(
         image: AssetImage('assets/logos/nike_logo.png'),
-        width: 50.0,
-        height: 20.0,
       ),
     );
   }
