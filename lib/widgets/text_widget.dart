@@ -5,13 +5,16 @@ class TextWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SizedBox(
+    // ignore: prefer_const_constructors
+    return SizedBox(
+      width: 120.0,
+      // ignore: prefer_const_constructors
       child: Text(
         ('DO YOU WANT A PAIR OF COMFORTABLE RUNNING SHOES'),
-        style: TextStyle(
+        style: const TextStyle(
           color: Colors.black,
           fontWeight: FontWeight.bold,
-          fontSize: 10.0,
+          fontSize: 13.0,
         ),
       ),
     );
