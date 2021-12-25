@@ -13,43 +13,43 @@ class NavBar extends StatelessWidget {
           style: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.bold,
-            fontSize: 15.0,
+            fontSize: 10.0,
           ),
         ),
-        SizedBox(width: 40.0),
+        SizedBox(width: 20.0),
         Text(
           ('Latest'),
           style: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.bold,
-            fontSize: 15.0,
+            fontSize: 10.0,
           ),
         ),
-        SizedBox(width: 40.0),
+        SizedBox(width: 20.0),
         Text(
           ('Price'),
           style: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.bold,
-            fontSize: 15.0,
+            fontSize: 10.0,
           ),
         ),
-        SizedBox(width: 40.0),
+        SizedBox(width: 20.0),
         Text(
           ('About'),
           style: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.bold,
-            fontSize: 15.0,
+            fontSize: 10.0,
           ),
         ),
-        SizedBox(width: 40.0),
+        SizedBox(width: 20.0),
         Text(
           ('Contact'),
           style: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.bold,
-            fontSize: 15.0,
+            fontSize: 10.0,
           ),
         ),
       ],
