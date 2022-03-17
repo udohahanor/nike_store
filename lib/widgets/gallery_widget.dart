@@ -70,12 +70,12 @@ class GalleryWidget extends StatelessWidget {
             ),
             padding: const EdgeInsets.all(10.0),
             child: const Image(
-              width: 150.0,
-              height: 120.0,
+              width: 160.0,
+              height: 130.0,
               image: AssetImage('assets/images/nike_shoe-01.png'),
             ),
           ),
-          const SizedBox(width: 40.0),
+          const SizedBox(width: 10.0),
           Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20.0),
@@ -85,12 +85,12 @@ class GalleryWidget extends StatelessWidget {
             ),
             padding: const EdgeInsets.all(10.0),
             child: const Image(
-              width: 150.0,
-              height: 120.0,
+              width: 160.0,
+              height: 130.0,
               image: AssetImage('assets/images/nike_shoe-02.png'),
             ),
           ),
-          const SizedBox(width: 40.0),
+          const SizedBox(width: 10.0),
           Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20.0),
@@ -100,8 +100,8 @@ class GalleryWidget extends StatelessWidget {
             ),
             padding: const EdgeInsets.all(10.0),
             child: const Image(
-              width: 150.0,
-              height: 120.0,
+              width: 160.0,
+              height: 130.0,
               image: AssetImage('assets/images/nike_shoe-03.png'),
             ),
           ),
