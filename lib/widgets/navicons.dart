@@ -11,7 +11,7 @@ class NavIcons extends StatelessWidget {
       child: Row(
         children: [
           Badge(
-            badgeColor: Colors.black,
+            badgeColor: Colors.blue,
             badgeContent: const Text(
               '4',
               style: TextStyle(
