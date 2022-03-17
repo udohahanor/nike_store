@@ -55,14 +55,14 @@ class HomeScreen extends StatelessWidget {
             const ProductScreen(),
             Padding(
               padding: const EdgeInsets.all(15.0),
-              child: Row(
+              child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: const [
                   TextWidget(),
-                  SizedBox(width: 5.0),
+                  SizedBox(height: 10.0),
                   GalleryWidget(),
-                  SizedBox(width: 5.0),
+                  SizedBox(height: 10.0),
                   TextWidget(),
                 ],
               ),

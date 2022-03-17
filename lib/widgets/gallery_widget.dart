@@ -75,7 +75,7 @@ class GalleryWidget extends StatelessWidget {
               image: AssetImage('assets/images/nike_shoe-01.png'),
             ),
           ),
-          const SizedBox(width: 80.0),
+          const SizedBox(width: 40.0),
           Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20.0),
@@ -90,7 +90,7 @@ class GalleryWidget extends StatelessWidget {
               image: AssetImage('assets/images/nike_shoe-02.png'),
             ),
           ),
-          const SizedBox(width: 80.0),
+          const SizedBox(width: 40.0),
           Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20.0),

@@ -18,7 +18,7 @@ class ProductScreen extends StatelessWidget {
               size: 30.0,
             ),
             Padding(
-              padding: EdgeInsets.all(10.0),
+              padding: EdgeInsets.all(5.0),
               child: Image(
                 width: 390.0,
                 image: AssetImage('assets/images/nike_shoe-01.png'),
@@ -42,9 +42,9 @@ class ProductScreen extends StatelessWidget {
               size: 30.0,
             ),
             Padding(
-              padding: EdgeInsets.all(10.0),
+              padding: EdgeInsets.all(5.0),
               child: Image(
-                width: 530.0,
+                width: 540.0,
                 image: AssetImage('assets/images/nike_shoe-01.png'),
               ),
             ),
@@ -66,7 +66,7 @@ class ProductScreen extends StatelessWidget {
               size: 30.0,
             ),
             Padding(
-              padding: EdgeInsets.all(10.0),
+              padding: EdgeInsets.all(5.0),
               child: Image(
                 width: 600.0,
                 image: AssetImage('assets/images/nike_shoe-01.png'),
